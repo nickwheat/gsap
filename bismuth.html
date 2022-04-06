@@ -1,0 +1,314 @@
+<svg version="1.1" id="bismuth" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" style="stroke: none; enable-background:new 0 0 800 800;" xml:space="preserve">
+<style type="text/css">
+	#bismuthBack{fill:url(#bismuthGradient);}
+	.bismuthLight{fill:#4488AA;}
+	.bismuthDark{fill:#3377AA;}
+</style>
+<radialGradient id="bismuthGradient" cx="410" cy="420" r="250" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#BBDDBB"/>
+	<stop  id="bismuthDarkening" offset="1" style="stop-color:#77AAAA"/>
+</radialGradient>
+<polygon id="bismuthBack" points="600,350 600,330 440,250 120,410 120,470 140,480 100,500 100,520 240,590 360,530 360,510 260,460 
+	360,410 440,450 360,490 360,510 480,570 720,450 720,410 "/>
+<polygon id="bismuth1" class="bismuthLight" points="360,490 360,510 480,570 480,550 "/>
+<polygon id="bismuth2" class="bismuthDark" points="360,510 360,530 240,590 240,570 "/>
+<polygon id="bismuth3" class="bismuthLight" points="100,500 100,520 240,590 240,570 "/>
+<polygon id="bismuth4" class="bismuthDark" points="260,480 260,500 240,510 220,500 "/>
+<polygon id="bismuth5" class="bismuthDark" points="240,530 240,550 280,530 280,510 "/>
+<polygon id="bismuth6" class="bismuthDark" points="460,460 460,480 420,500 400,490 "/>
+<polygon id="bismuth7" class="bismuthDark" points="480,510 480,530 540,500 540,480 "/>
+<polygon id="bismuth8" class="bismuthDark" points="580,440 580,460 640,430 640,410 "/>
+<polygon id="bismuth9" class="bismuthDark" points="560,410 560,390 500,420 520,430 "/>
+<polygon id="bismuth10" class="bismuthLight" points="460,460 460,480 480,490 500,480 "/>
+<polygon id="bismuth11" class="bismuthLight" points="440,490 440,510 480,530 480,510 "/>
+<polygon id="bismuth12" class="bismuthLight" points="540,420 540,440 580,460 580,440 "/>
+<polygon id="bismuth13" class="bismuthLight" points="560,390 560,410 580,420 600,410 "/>
+<polygon id="bismuth14" class="bismuthLight" points="680,410 660,420 580,380 580,360 "/>
+<polygon id="bismuth15" class="bismuthLight" points="260,480 320,510 300,520 260,500 "/>
+<polygon id="bismuth16" class="bismuthLight" points="180,500 180,520 240,550 240,530 "/>
+<polygon id="bismuth17" class="bismuthDark" points="460,400 460,420 560,370 580,380 580,360 600,350 600,330 "/>
+<polygon id="bismuth18" class="bismuthDark" points="340,380 340,360 220,420 220,440 "/>
+<polygon id="bismuth19" class="bismuthDark" points="440,310 440,330 400,350 380,340 "/>
+<polygon id="bismuth20" class="bismuthLight" points="480,330 440,310 440,330 460,340 "/>
+<polygon id="bismuth21" class="bismuthLight" points="420,340 460,360 460,380 420,360 "/>
+<polygon id="bismuth22" class="bismuthDark" points="520,330 520,350 460,380 460,360 "/>
+<polygon id="bismuth23" class="bismuthDark" points="440,270 160,410 180,420 440,290 "/>
+<polygon id="bismuth24" class="bismuthLight" points="560,330 440,270 440,290 540,340 "/>
+<polygon id="bismuth25" class="bismuthDark" points="720,410 580,480 580,500 480,550 480,570 720,450 	"/>
+<polygon id="bismuth26" class="bismuthLight" points="460,420 460,400 340,340 340,380 360,390 360,410 440,450 460,440 540,480 540,500 560,490 580,500 
+	580,480 "/>
+<polygon id="bismuth27" class="bismuthLight" points="120,410 120,470 140,480 160,470 180,480 180,440 "/>
+<polygon id="bismuth28" class="bismuthDark" points="220,460 220,420 180,440 180,480 140,500 160,510 360,410 360,390 	"/>
+</svg>
+
+<script>
+
+var bismuthTimeline = gsap.timeline({repeat: -1, yoyo: true});
+
+bismuthTimeline.set({}, {}, 4.5);
+
+bismuthTimeline.to('#bismuthDarkening', 4, {
+      stopColor: '#BBDDBB',
+      ease:Power4.easeIn,
+    }, 0);
+    
+bismuthTimeline.to('#bismuthBack', 1, {
+      attr: {
+        points: '600,350 600,350 440,270 120,430 120,470 140,480 100,500 100,520 240,590 360,530 360,510 260,460 360,410 440,450 360,490 360,510 480,570 720,450 720,410'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+    
+    bismuthTimeline.to('#bismuthBack', 1, {
+      attr: {
+        points: '600,370 600,370 440,290 120,450 120,470 140,480 100,500 100,520 240,590 360,530 360,510 260,460 360,410 440,450 360,490 360,510 480,570 720,450 720,430'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+    
+    bismuthTimeline.to('#bismuthBack', 1, {
+      attr: {
+        points: '600,390 600,390 440,310 120,470 120,470 160,490 100,520 100,520 240,590 360,530 360,530 240,470 360,410 460,460 360,510 360,510 480,570 720,450 720,450'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+
+
+    bismuthTimeline.to('#bismuth17', 1, {
+      attr: {
+        points: '460,420 460,420 560,370 580,380 580,360 600,350 600,350'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+    bismuthTimeline.to('#bismuth17', 1, {
+      attr: {
+        points: '460,440 460,440 580,380 580,380 580,380 600,370 600,370'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+
+
+    bismuthTimeline.to('#bismuth25', 1, {
+      attr: {
+        points: '720,430 580,500 580,500 480,550 480,570 720,450'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+    bismuthTimeline.to('#bismuth25', 1, {
+      attr: {
+        points: '720,450 580,520 580,520 480,570 480,570 720,450'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+
+
+    bismuthTimeline.to('#bismuth26', 1, {
+      attr: {
+        points: '460,420 460,420 340,360 340,380 360,390 360,410 440,450 460,440 540,480 540,500 560,490 580,500 580,480'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+    bismuthTimeline.to('#bismuth26', 1, {
+      attr: {
+        points: '460,440 460,440 340,380 340,380 360,390 360,410 440,450 460,440 540,480 540,500 560,490 580,500 580,500'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+    bismuthTimeline.to('#bismuth26', 1, {
+      attr: {
+        points: '460,460 460,460 340,400 340,400 360,410 360,410 460,460 460,460 540,500 540,500 540,500 580,520 580,520'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+
+
+    bismuthTimeline.to('#bismuth27', 1, {
+      attr: {
+        points: '120,430 120,470 140,480 160,470 180,480 180,460'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+    bismuthTimeline.to('#bismuth27', 1, {
+      attr: {
+        points: '120,450 120,470 140,480 160,470 180,480 180,480'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+    bismuthTimeline.to('#bismuth27', 1, {
+      attr: {
+        points: '120,470 120,470 160,490 160,490 180,500 180,500'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+
+
+    bismuthTimeline.to('#bismuth28', 1, {
+      attr: {
+        points: '220,460 220,440 180,460 180,480 140,500 160,510 360,410 360,390'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+    bismuthTimeline.to('#bismuth28', 1, {
+      attr: {
+        points: '220,460 220,460 180,480 180,480 140,500 160,510 360,410 360,390'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+    bismuthTimeline.to('#bismuth28', 1, {
+      attr: {
+        points: '220,480 220,480 180,500 180,500 140,520 140,520 360,410 360,410'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+
+    bismuthTimeline.to('#bismuth23', 1, {
+      attr: {
+        points: '440,290 160,430 160,430 440,290'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+
+    bismuthTimeline.to('#bismuth24', 1, {
+      attr: {
+        points: '560,350 440,290 440,290 560,350'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+
+    bismuthTimeline.to('#bismuth18', 1, {
+      attr: {
+        points: '340,380 340,380 220,440 220,440'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+
+    bismuthTimeline.to('#bismuth22', 1, {
+      attr: {
+        points: '520,350 520,350 460,380 460,380'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+    bismuthTimeline.to('#bismuth21', 1, {
+      attr: {
+        points: '420,360 460,380 460,380 420,360'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+    bismuthTimeline.to('#bismuth20', 1, {
+      attr: {
+        points: '480,350 440,330 440,330 480,350'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+    bismuthTimeline.to('#bismuth19', 1, {
+      attr: {
+        points: '440,330 440,330 380,360 380,360'
+      },
+      ease:Power0.easeNone,
+    }, 1);
+
+    bismuthTimeline.to('#bismuth14', 1, {
+      attr: {
+        points: '680,430 680,430 580,380 580,380'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+    bismuthTimeline.to('#bismuth13', 1, {
+      attr: {
+        points: '560,410 560,410 600,430 600,430'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+    bismuthTimeline.to('#bismuth12', 1, {
+      attr: {
+        points: '540,440 540,440 580,460 580,460'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+    bismuthTimeline.to('#bismuth9', 1, {
+      attr: {
+        points: '560,410 560,410 500,440 500,440'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+    bismuthTimeline.to('#bismuth8', 1, {
+      attr: {
+        points: '580,460 580,460 640,430 640,430'
+      },
+      ease:Power0.easeNone,
+    }, 2);
+
+    bismuthTimeline.to('#bismuth7', 1, {
+      attr: {
+        points: '480,530 480,530 540,500 540,500'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth11', 1, {
+      attr: {
+        points: '440,510 440,510 480,530 480,530'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth10', 1, {
+      attr: {
+        points: '460,480 460,480 500,500 500,500'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth10', 1, {
+      attr: {
+        points: '460,480 460,480 500,500 500,500'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth6', 1, {
+      attr: {
+        points: '460,480 460,480 400,510 400,510'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth5', 1, {
+      attr: {
+        points: '240,550 240,550 280,530 280,530'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth4', 1, {
+      attr: {
+        points: '260,500 260,500 220,520 220,520'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth3', 1, {
+      attr: {
+        points: '100,520 100,520 240,590 240,590'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth2', 1, {
+      attr: {
+        points: '360,530 360,530 240,590 240,590'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth1', 1, {
+      attr: {
+        points: '360,510 360,510 480,570 480,570'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth15', 1, {
+      attr: {
+        points: '260,500 320,530 320,530 260,500'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+    bismuthTimeline.to('#bismuth16', 1, {
+      attr: {
+        points: '180,520 180,520 240,550 240,550'
+      },
+      ease:Power0.easeNone,
+    }, 3);
+
+</script>
