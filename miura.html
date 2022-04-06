@@ -1,0 +1,133 @@
+<svg version="1.1" id="miuraSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+    <style type="text/css">
+      .miuraFold {
+        fill: #67F;
+        stroke: #67F;
+      }
+      
+      #miuraFolds2 {
+        opacity: 0;
+      }
+
+    </style>
+    <g id="miuraFolds1">
+      <polygon id="miuraFold1-1" class="miuraFold miuraFoldLight" points="185,180 325,180 355,340 185,340 " />
+      <polygon id="miuraFold2-1" class="miuraFold miuraFoldDark" points="325,180 485,180 515,340 355,340 " />
+      <polygon id="miuraFold3-1" class="miuraFold" points="185,340 355,340 325,500 185,500 " />
+      <polygon id="miuraFold4-1" class="miuraFold miuraFoldMid" points="355,340 515,340 485,500 325,500 " />
+      <polygon id="miuraFold5-1" class="miuraFold miuraFoldLight" points="185,500 325,500 355,660 185,660 " />
+      <polygon id="miuraFold6-1" class="miuraFold miuraFoldDark" points="325,500 485,500 515,660 355,660 " />
+      <polygon id="miuraFold7-1" class="miuraFold miuraFoldLight" points="485,180 645,180 675,340 515,340 " />
+      <polygon id="miuraFold8-1" class="miuraFold miuraFoldDark" points="645,180 815,180 815,340 675,340 " />
+      <polygon id="miuraFold9-1" class="miuraFold" points="515,340 675,340 645,500 485,500 " />
+      <polygon id="miuraFold10-1" class="miuraFold miuraFoldMid" points="675,340 815,340 815,500 645,500 " />
+      <polygon id="miuraFold11-1" class="miuraFold miuraFoldLight" points="485,500 645,500 675,660 515,660 " />
+      <polygon id="miuraFold12-1" class="miuraFold miuraFoldDark" points="645,500 815,500 815,660 675,660 " />
+      <polygon id="miuraFold13-1" class="miuraFold" points="185,660 355,660 325,820 185,820 " />
+      <polygon id="miuraFold14-1" class="miuraFold miuraFoldMid" points="355,660 515,660 485,820 325,820 " />
+      <polygon id="miuraFold15-1" class="miuraFold" points="515,660 675,660 645,820 485,820 " />
+      <polygon id="miuraFold16-1" class="miuraFold miuraFoldMid" points="675,660 815,660 815,820 645,820 " />
+    </g>
+    <g id="miuraFolds2">
+      <polygon id="miuraFold1-2" class="miuraFold" points="220,370 318,400 445.8,445 337.6,435 " />
+      <polygon id="miuraFold2-2" class="miuraFold" points="318,400 426.1,370 563.9,425 445.8,445 " />
+      <polygon id="miuraFold3-2" class="miuraFold" points="337.6,435 445.8,445 328,500 220,500 " />
+      <polygon id="miuraFold4-2" class="miuraFold" points="445.8,445 563.9,425 406.1,500 328,500 " />
+      <polygon id="miuraFold5-2" class="miuraFold" points="220,500 328,500 455.8,555 337.6,565 " />
+      <polygon id="miuraFold6-2" class="miuraFold" points="328,500 406.1,500 563.9,575 455.8,555 " />
+      <polygon id="miuraFold7-2" class="miuraFold" points="426.1,370 534.2,400 652,445 563.9,425 " />
+      <polygon id="miuraFold8-2" class="miuraFold" points="534.2,400 662.4,370 770,435 652,445 " />
+      <polygon id="miuraFold9-2" class="miuraFold" points="563.9,425 652,445 534.2,500 406.1,500 " />
+      <polygon id="miuraFold10-2" class="miuraFold" points="652,445 770,435 642.4,500 534.2,500 " />
+      <polygon id="miuraFold11-2" class="miuraFold" points="406.1,500 534.2,500 662,555 563.9,575 " />
+      <polygon id="miuraFold12-2" class="miuraFold" points="534.2,500 642.4,500 770,565 662,555 " />
+      <polygon id="miuraFold13-2" class="miuraFold" points="337.6,565 455.8,555 318,600 220,630 " />
+      <polygon id="miuraFold14-2" class="miuraFold" points="455.8,555 563.9,575 426.1,630 318,600 " />
+      <polygon id="miuraFold15-2" class="miuraFold" points="563.9,575 662,555 534.2,600 426.1,630 " />
+      <polygon id="miuraFold16-2" class="miuraFold" points="662,555 770,565 662.4,630 534.2,600 " />
+    </g>
+  </svg>
+  
+  <script>
+
+	var miuraTimeline = gsap.timeline({repeat: -1, yoyo: true});
+
+  miuraTimeline.to('.miuraFoldDark', 2, {
+    fill: '#56F',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('.miuraFoldMid', 2, {
+    fill: '#78F',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('.miuraFoldLight', 2, {
+    fill: '#89F',
+    ease: Power1.easeInOut,
+  }, 0);
+
+  miuraTimeline.to('#miuraFold1-1', 2, {
+    morphSVG: '#miuraFold1-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold2-1', 2, {
+    morphSVG: '#miuraFold2-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold3-1', 2, {
+    morphSVG: '#miuraFold3-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold4-1', 2, {
+    morphSVG: '#miuraFold4-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold5-1', 2, {
+    morphSVG: '#miuraFold5-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold6-1', 2, {
+    morphSVG: '#miuraFold6-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold7-1', 2, {
+    morphSVG: '#miuraFold7-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold8-1', 2, {
+    morphSVG: '#miuraFold8-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold9-1', 2, {
+    morphSVG: '#miuraFold9-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold10-1', 2, {
+    morphSVG: '#miuraFold10-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold11-1', 2, {
+    morphSVG: '#miuraFold11-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold12-1', 2, {
+    morphSVG: '#miuraFold12-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold13-1', 2, {
+    morphSVG: '#miuraFold13-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold14-1', 2, {
+    morphSVG: '#miuraFold14-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold15-1', 2, {
+    morphSVG: '#miuraFold15-2',
+    ease: Power1.easeInOut,
+  }, 0);
+  miuraTimeline.to('#miuraFold16-1', 2, {
+    morphSVG: '#miuraFold16-2',
+    ease: Power1.easeInOut,
+  }, 0);
+
+</script>
