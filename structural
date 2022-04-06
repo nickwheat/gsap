@@ -1,0 +1,279 @@
+<svg version="1.1" id="structuralSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000; position: absolute; top: 0px; left: 0px;" xml:space="preserve">
+    <style type="text/css">
+      .structuralGrey {
+        fill: #333;
+      }
+      
+      .structuralAntennae {
+        fill: none;
+        stroke: #333;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+      
+      #structuralWing {
+        stroke: #336;
+        stroke-width: 0.1px;
+      }
+      
+      #structuralWingClone {
+        transform-origin: 500px 500px;
+        transform: scale(-1, 1);
+      }
+      
+      .structuralWing1 {
+        fill: url(#structuralGradient1);
+      }
+      
+      .structuralWing2 {
+        fill: url(#structuralGradient2);
+      }
+      
+      .structuralWing3 {
+        fill: url(#structuralGradient3);
+      }
+      
+      .structuralWing4 {
+        fill: url(#structuralGradient4);
+      }
+      
+      .structuralWing5 {
+        fill: url(#structuralGradient5);
+      }
+      
+      .structuralWing6 {
+        fill: url(#structuralGradient6);
+      }
+      
+      .structuralWing7 {
+        fill: url(#structuralGradient7);
+      }
+      
+      .structuralWing8 {
+        fill: url(#structuralGradient8);
+      }
+      
+      .structuralWing9 {
+        fill: url(#structuralGradient9);
+      }
+      
+      .structuralWing10 {
+        fill: url(#structuralGradient10);
+      }
+      
+      .structuralWing11 {
+        fill: url(#structuralGradient11);
+      }
+      
+      .structuralWing12 {
+        fill: url(#structuralGradient12);
+      }
+      
+      .structuralWing13 {
+        fill: url(#structuralGradient13);
+      }
+      
+      .structuralWing14 {
+        fill: url(#structuralGradient14);
+      }
+      
+      .structuralWing15 {
+        fill: url(#structuralGradient15);
+      }
+
+    </style>
+    <defs>
+
+      <radialGradient id="structuralGradient1" cx="344.433" cy="312.964" r="168.1416" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient2" cx="277.6718" cy="241.9308" r="140.5275" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient3" cx="264.0163" cy="271.179" r="121.804" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient4" cx="261.1767" cy="294.3807" r="82.7478" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient5" cx="356.8376" cy="480.4202" r="97.7311" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient6" cx="333.3543" cy="401.7358" r="117.4814" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient7" cx="347.0462" cy="445.7126" r="107.3967" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient8" cx="311.6899" cy="343.8484" r="118.6401" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient9" cx="400.2034" cy="607.1965" r="156.6823" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient10" cx="423.0083" cy="603.925" r="119.1037" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient11" cx="375.9665" cy="626.6183" r="130.0563" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient12" cx="370.2296" cy="531.7971" r="146.1781" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient13" cx="350.5182" cy="563.822" r="128.1495" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient14" cx="367.2401" cy="534.2072" r="114.2739" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+      <radialGradient id="structuralGradient15" cx="374.4048" cy="575.415" r="135.7687" gradientUnits="userSpaceOnUse">
+        <stop class="structuralGradientLight" offset="0" style="stop-color:#3399EE" />
+        <stop class="structuralGradientDark" offset="1" style="stop-color:#333366" />
+      </radialGradient>
+
+    </defs>
+    <g id="structuralBody">
+      <ellipse class="structuralGrey" cx="500" cy="531.4" rx="18" ry="68" />
+      <ellipse class="structuralGrey" cx="500" cy="454.8" rx="15.4" ry="23.2" />
+      <path class="structuralAntennae" d="M505.2,434.7c2.7-20.3,17.9-41,26.6-54.4s13.2-43.1,20-47.5" />
+      <path class="structuralAntennae" d="M499.7,434.7c-2.7-20.3-17.9-41-26.6-54.4s-13.2-43.1-20-47.5" />
+    </g>
+
+    <g id="structuralWing">
+
+      <path class="structuralGrey" d="M406.6,703.9c22.2-65.7,70.3-151.8,88-230.1c0,0-14.4,69.6-9.7,101.3c1.6,10.7,4.5,21.4,3.4,32.1
+			c-0.9,9.2-4.7,17.8-8.6,26.3c-8.5,18.7-17.5,37.1-27,55.4c-5.1,9.9-10.5,19.7-17,28.8c-18,25-44.1,42.6-69.6,59.7
+			C387,759.9,397.9,729.5,406.6,703.9z" />
+
+
+      <path class="structuralWing9" d="M443.8,541.1c3.8-3.8,8.4-9.8,13.4-16.6c-12.9,23.2-30.6,62.7-39.5,87.7c-18.2,51.5-40.8,116.8-59.4,169.6
+			c-2.2,0.9-4.5,1.4-6.9,1.2c-3.8-0.3-7.1-2.4-10.5-4c-10-4.8-21.8-5.7-32.4-2.6c-3.9,1.1-7.8,2.8-11.8,2.1
+			c-1.9-0.3-3.6-1.1-5.1-2.2c27.7-69.8,69-144.6,115.3-203C420.8,564.5,432.3,552.7,443.8,541.1z" />
+
+      <path class="structuralWing10" d="M457.1,524.5c12.7-17.5,27.9-40.9,37.5-50.7c-17.7,78.3-65.8,164.4-88,230.1c-8.7,25.7-19.7,56-40.4,73.5
+			c-2.5,1.7-5.1,3.4-7.9,4.5c18.6-52.8,41.2-118.1,59.4-169.6C426.5,587.1,444.3,547.7,457.1,524.5z" />
+
+
+      <path class="structuralWing11" d="M362.7,595.6c14.6-7.9,30.4-13.4,44.3-22.3c-46.2,58.3-87.5,133.2-115.3,203c-4.6-3.6-7-10.5-7.9-16.7
+			c-1.3-8.1-2.6-17.6-9.8-21.6c-7.4-4.2-17.9-0.3-24.6-5.6c-0.6-0.5-1.1-1-1.5-1.5C276.3,682,314.8,621.4,362.7,595.6z" />
+
+
+      <path class="structuralWing12" d="M384.9,509.3c-11-0.3-21.8-2.9-32.8-3.3c-15.3-0.5-30.4,3.3-45.1,7.9c-24.9,7.8-49.1,17.9-72.1,30.3
+			c-13.5,7.2-30,18.1-39,30.9c0.1-1.1,0.2-2.2,0.4-3.2c3.5-19.2,16.6-35.7,32.5-47c15.9-11.4,34.5-18.2,53.1-24.2
+			c66.7-21.5,212.6-26.9,212.6-26.9c-3.7,3.8-8.2,9.6-13.1,16.2C448.6,490.7,417.9,510.2,384.9,509.3z" />
+
+      <path class="structuralWing13" d="M300.9,554.1c29.3-11,63.4-21.6,91.5-37.5c-9.9,6.1-14.5,22.3-22.5,30.6c-4,4.2-9.2,6.9-14.3,9.6
+			c-49.9,27.2-98.5,68.6-129.4,116.5c-3.5-12.5,2.9-29.6-6.9-38.8c-2.6-2.5-6.1-3.9-8.5-6.6c-2.7-3.1-3.3-7.1-3.2-11.4
+			C230.1,588.3,267.4,566.7,300.9,554.1z" />
+
+
+      <path class="structuralWing14" d="M196.1,575.1c8.9-12.9,25.5-23.7,39-30.9c23-12.3,47.2-22.5,72.1-30.3c14.6-4.6,29.8-8.4,45.1-7.9
+			c11,0.4,21.8,3,32.8,3.3c7.1,0.2,14-0.6,20.9-1.8c-4.3,3.1-9.6,6.9-13.4,9.1c-28.1,15.9-62.3,26.5-91.5,37.5
+			c-33.5,12.6-70.7,34.2-93.2,62.4c0.3-9.8,4.5-21.2-2.7-27.4c-2-1.7-4.6-2.6-6.4-4.5C196.3,582.1,195.8,578.6,196.1,575.1z" />
+
+
+      <path class="structuralWing15" d="M481.5,490c-12.8,17.5-28.1,41.2-37.8,51.1c-11.4,11.7-23,23.4-36.8,32.2c-14,8.9-29.8,14.4-44.3,22.3
+				c-47.9,25.8-86.4,86.4-114.8,135.3c-8.2-9.3,3-27.6-4.4-38.7c-3.4-5-9.8-7.2-13.7-11.8c-1.8-2.1-2.9-4.4-3.6-7
+				c30.9-47.9,79.5-89.3,129.4-116.5c5.1-2.8,10.3-5.5,14.3-9.6c8-8.3,12.6-24.6,22.5-30.6c3.9-2.2,9.1-6,13.4-9.1
+				C431.1,502.7,455.7,490.5,481.5,490z" />
+
+      <g id="structuralWingTop">
+
+        <path class="structuralGrey" d="M313.4,247.1c-46.7-26.9-112.5-44.5-166.6-57.1c39-6.6,80.1-0.4,116.9,14.4C309,222.7,348.4,253,383.4,287
+              c51.3,50,94,117.2,111.3,186.7C460.6,386,394.9,294.1,313.4,247.1z" />
+
+        <path class="structuralWing1" d="M450.6,437.1c-57.5-38.9-117.7-75.3-165.2-125.9c7.8-5.3,8-17.5,15.3-23.5c7.2-5.9,17.7-3.4,26.8-1.9
+              c8.9,1.4,22.3-3,25.7-11.3c62.9,50.5,113,126.3,141.3,199.1C486,462.8,462.2,444.9,450.6,437.1z" />
+        <path class="structuralWing2" d="M104.1,205.4c4.6-4.3,10.6-6.8,16.5-8.8c8.5-2.9,17.3-5,26.1-6.5c54.1,12.6,119.9,30.2,166.6,57.1
+              c13.8,7.9,27.1,17.2,40,27.5c-1.1,2.8-3.4,5.1-6.3,7c-23.5-17.9-54.5-27.7-83.3-34.4c-23.4-5.5-47.2-10.2-71.2-9.5
+              c-23.3,0.6-49.5,7.1-68.3,20.9c-7.4-9.1-14.6-18.4-21.4-28c-1.8-2.6-3.7-5.2-4.5-8.2C96.7,216.3,99.6,209.7,104.1,205.4z" />
+
+        <path class="structuralWing3" d="M263.8,247.1c28.7,6.7,59.8,16.5,83.3,34.4c-5.6,3.6-13.6,5.3-19.4,4.3c-7.8-1.3-16.6-3.3-23.5-0.2
+              c-33.1-7.5-69.1-11.5-102.9-9.5c-15.1,0.9-34.7,7-46.6,16.9c-10.5-11.1-20.7-22.6-30.3-34.5c18.9-13.9,45-20.3,68.3-20.9
+              C216.6,237,240.4,241.7,263.8,247.1z" />
+
+        <path class="structuralWing4" d="M201.2,276.1c33.7-2,69.7,2,102.9,9.5c-1.2,0.5-2.3,1.2-3.3,2c-7.3,6-7.5,18.2-15.3,23.5
+              c-16.4,2-33.4,4.5-49.8,6.5c-20.3,2.4-41,10.3-56.5,23.7c-1.6-7.7-1.5-15.9-4.5-23.2c-3.1-7.8-9.3-14-15.1-20
+              c-1.7-1.7-3.3-3.5-5-5.2C166.6,283.1,186.1,277,201.2,276.1z" />
+
+
+        <path class="structuralWing5" d="M353.9,467c44.8-1.1,97.2-5.8,140.3,6.6c-31.8,3.2-63.5,6.5-95.3,9.7c-15.5,1.6-31,3.2-46.2,6.3
+              c-10.5,2.2-20.8,5.1-31.5,5.8c-14.6,0.9-29.1-2.3-43.7-2.2c-12.6,0.1-25.4,2.7-37.7-0.4c-7.7-1.9-14.6-6-20.5-11.3
+              C259.6,463.2,309.8,468,353.9,467z" />
+
+
+        <path class="structuralWing6" d="M281.8,362c21.4,0.6,47.4,1.9,68.9,6.6c21.4,16.1,43.8,31.1,66.2,46c-70.9-13-154.5,1.2-217.5,35.3
+              c-3.6-10-6-20.5-8.3-30.9c-2.1-9.4-4.1-18.9-3.9-28.4c11.7-11,31.4-21.9,46-25.2C249.2,361.8,265.6,361.6,281.8,362z" />
+
+
+        <path class="structuralWing7" d="M417,414.6c11.2,7.5,22.5,14.9,33.7,22.5c11.6,7.8,35.4,25.7,44,36.6l-0.4-0.1c0,0,0,0,0,0
+              c-43.1-12.4-95.5-7.7-140.3-6.6c-44.2,1.1-94.3-3.8-134.5,14.6c-5.7-5.1-10.4-11.4-14.1-18.2c-2.3-4.3-4.3-8.8-5.9-13.4
+              C262.5,415.8,346.1,401.6,417,414.6z" />
+
+
+        <path class="structuralWing8" d="M181.5,348.9c-1.1-2.4-1.8-5-2.3-7.5c15.5-13.4,36.1-21.2,56.5-23.7c16.4-2,33.4-4.5,49.8-6.5
+              c19.9,21.2,42.1,39.9,65.3,57.4c-21.5-4.7-47.5-6-68.9-6.6c-16.2-0.4-32.7-0.2-48.5,3.4c-14.7,3.3-34.4,14.2-46,25.2
+              c0-1.9,0.2-3.7,0.4-5.6c0.9-6.9,3.1-13.9,1.5-20.6C187.7,358.8,183.8,354.2,181.5,348.9z" />
+
+      </g>
+    </g>
+    <use id="structuralWingClone" xlink:href="#structuralWing" />
+  </svg>
+  
+  
+  <script>
+  
+  var structuralTimeline = gsap.timeline({repeat: -1, yoyo: true});
+
+  structuralTimeline.set('#structuralWing', {
+      transformOrigin: '395 500',
+    }, 0);
+    structuralTimeline.set('#structuralWingTop', {
+      transformOrigin: '400 280',
+    }, 0);
+
+
+    structuralTimeline.to('#structuralWing', 4, {
+      scaleX: 0.1,
+      ease: Power2.easeInOut,
+    }, 1);
+    structuralTimeline.to('#structuralWingTop', 3, {
+      rotation: -40,
+      ease: Power2.easeInOut,
+    }, 1.5);
+    structuralTimeline.to('.structuralGradientLight', 2, {
+      stopColor: '#336',
+      ease: Power2.easeInOut,
+    }, 2);
+  
+  </script>
